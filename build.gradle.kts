@@ -2,8 +2,8 @@ import java.util.function.BiConsumer
 
 plugins {
     java
-    id("site.siredvin.root") version "0.4.17"
-    id("site.siredvin.release") version "0.4.17"
+    id("site.siredvin.root") version "0.6.2"
+    id("site.siredvin.release") version "0.6.2"
     id("com.dorongold.task-tree") version "2.1.1"
 }
 
@@ -19,7 +19,7 @@ subprojects {
 
 githubShaking {
     modBranch.set("1.20")
-    projectRepo.set("DataFortress")
+    projectRepo.set("CloudSolutions")
     useForgeJarJar.set(true)
 //    mastodonProjectName.set("UnlimitedPeripheralWorks")
     shake()
